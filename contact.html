@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendyMart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>TrendyMart</h1>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="collection.html">Collections</a>
+        <a href="contact.html">Contacts</a>
+      </div>
+      <div class="navbar-toggle">
+        <i class="fa-solid fa-bars" onclick="shownavbar()"></i>
+      </div>
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align: right" onclick="hidenavbar()">
+          <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+          <p class="side-navbar-link"> <a href="index.html">Home</a></p>
+          <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+          <p class="side-navbar-link"><a href="contact.html">Contacts</a></p>
+        </div>
+      </div>
+    
+      <div class="contact">
+        <h3>Name</h3>
+        <input type="text" placeholder="Your Name">
+        <h3>Email</h3>
+        <input type="text" placeholder="E-mail">
+        <h3>Message</h3>
+        <textarea placeholder="Your message..."></textarea>
+        <button>Submit</button>
+      </div>
+    
+    
+
+
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2>TrendyMart</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            tempora!
+          </p>
+          <div class="footer-icons">
+            <i class="fa-brands fa-instagram" style="color: #ffff"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffff"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffff"></i>
+          </div>
+        </div>
+        <p>@2024 TrendyMart</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
